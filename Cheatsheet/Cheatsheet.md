@@ -1,14 +1,12 @@
 ## Base Karel commnds:
----
 
-move()
-turn_left()
-put_beeper()
-pick_beeper()
+- move()
+- turn_left()
+- put_beeper()
+- pick_beeper()
 
 
 ## Names of the conditions:
----
 
 | Test | Opposite | Checks |
 | -------- | -------- | --------- |
@@ -24,7 +22,6 @@ pick_beeper()
 
 
 ## Conditions:
----
 
 ```python
 if condition:
@@ -37,7 +34,6 @@ else:
 ```
 
 ## Loops:
----
 
 ```python
 for i in range( count):
@@ -48,7 +44,6 @@ while condition:
 ```
 
 ## Function Declaration:
----
 
 ```python
 def name():
@@ -56,13 +51,11 @@ def name():
 ```
 
 ## Extra Karel Commands:
----
 
-paint_corner(COLOR_NAME)
-corner_color_is(COLOR_NAME)
+- paint_corner(COLOR_NAME)
+- corner_color_is(COLOR_NAME)
 
 ### Color names :
----
 
 - BLANK, which removes any color on the square
 - BLACK
